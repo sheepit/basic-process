@@ -1,0 +1,11 @@
+commands:
+    - echo checking if variables work
+    - echo variable foo = $foo
+    - echo variable bar = $bar
+    - echo
+    - echo checking if quotes are handled properly
+    - ls "inner with spaces"
+    - echo
+    - echo checking if current directory context is retained
+    - cd inner
+    - ls
